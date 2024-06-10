@@ -1,0 +1,169 @@
+/* add activities css */
+
+.addActivitiesContainer,
+.viewActivitiesContainer {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 58px 0px;
+}
+
+.tab-content {
+    background-color: white;
+    padding: 33px;
+    width: 87%;
+    box-shadow: 0px 3px 6px gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form.form-vertical {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+textarea {
+    background-color: #aeaeae33;
+    border: 0px;
+    resize: none;
+    width: 100%;
+    padding: 12px;
+}
+
+input,
+select {
+    height: 43px;
+    width: 100%;
+    padding-left: 12px;
+    background-color: #aeaeae33;
+    border: 0px
+}
+
+label {
+    color: black;
+}
+
+.firstRow,
+.secondRow,
+.thirdRow,
+.forthRow {
+    width: 100%;
+    margin: 11px 0px;
+}
+
+
+/* ----------------------------------------------------
+                                 FOOTER DESIGN
+------------------------------------------------------ */
+#content {
+    position: relative;
+
+}
+
+
+/* ----------------------------------------------------
+      COPYRIGHT-W3LAYOUTS
+------------------------------------------------------ */
+
+.copyright-w3layouts {
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+}
+
+
+/* ----------------------------------------------------
+      MYPROFILE
+------------------------------------------------------ */
+
+.profile-content {
+    background-color: white;
+    padding: 33px;
+    width: 100%;
+    box-shadow: 0px 3px 6px gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.ProfileDescription {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 0px 23px;
+    align-items: center;
+}
+
+.Profilecard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.ProfileCardDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfilecardUpdate {
+    color: black;
+    /* width: 80%; */
+}
+
+/* ----------------------------------------------------
+        LOGIN
+------------------------------------------------------ */
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+    background-color: white;
+}
+
+.bg-page {
+    background-color: white;
+    height:auto;
+    padding:0px;
+}
+h1.paragraph-agileits-w3layouts{
+    text-align:center
+}
+.bg-page .copyright-w3layouts{
+    background: black;
+}
+input#form2Example3{
+  height:15px;
+  width:16px;
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
